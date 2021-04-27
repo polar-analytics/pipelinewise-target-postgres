@@ -12,7 +12,7 @@ from tempfile import mkstemp
 
 from joblib import Parallel, delayed, parallel_backend
 from jsonschema import Draft7Validator, FormatChecker
-from singer import get_logger
+from pipelinewise_singer import get_logger
 
 from target_postgres.db_sync import DbSync
 

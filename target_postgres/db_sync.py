@@ -8,7 +8,7 @@ import re
 import uuid
 import itertools
 import time
-from singer import get_logger
+from pipelinewise_singer import get_logger
 
 
 # pylint: disable=missing-function-docstring,missing-class-docstring
